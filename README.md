@@ -1,1 +1,1 @@
-# Intro_to_AI_Final_Project_Detection-of-Credit-Card-Defaulters-Using-Machine-Learning
+# Introduction to Artifical Intelligence - Final Project Detection-of-Credit-Card-Defaulters-Using-Machine-Learning
