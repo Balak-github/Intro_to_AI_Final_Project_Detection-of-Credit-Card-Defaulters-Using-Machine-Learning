@@ -59,7 +59,7 @@ There are 24 features to choose from:
 
 ### SVM
 
-Support vector machines (SVMs), a type of supervised machine learning technique, can be used for both classification and regression tasks. However, it is usually used to address categorization issues. Each value in the SVM algorithm at a specific location. For every piece of information, make a point in n-dimensional space (n is the number of features) that symbolizes the feature's value. Find a super plane that distinguishes the two classes clearly, and then classify them.
+Support vector machines (SVMs), a form of supervised machine learning technique, can be utilized for both classification and regression tasks. It is, however, most commonly employed to address categorization concerns. Each value in the SVM algorithm is associated with a specific location. Make a point in n-dimensional space (n is the number of features) that represents the value of each piece of information. Find a super plane that clearly separates the two classes, and then classify them.
 
 ### How it works
 
@@ -67,7 +67,7 @@ A straightforward linear SVM classifier operates by tracing a straight line betw
 
 ### Logistic Regression
 
-A type of statistical analysis is logistic regression, sometimes known as logit regression, binary logit, or binary logistic regression. A statistical method known as logistic regression uses historical data to forecast the outcome of a dependent variable. It is a type of regression analysis that is frequently applied to binary categorization problems. The log of the outcome's odds ratio is modelled by logistic regression. A logistic regression model's coefficients are calculated via maximum likelihood estimation. This is since, unlike linear regression, no closed-form solution exists. Regression analysis is a type of predictive modeling technique that is used to determine the relationship between a dependent variable and one or more independent variables.
+Logistic regression, often known as logit regression, binary logit, or binary logistic regression, is a type of statistical analysis. The logistic regression statistical method forecasts the outcome of a dependent variable using previous data. It is a type of regression analysis commonly used to solve binary categorization problems. Logistic regression is used to model the log of the outcome's odds ratio. The coefficients of a logistic regression model are obtained via maximum likelihood estimation. This is because, unlike linear regression, there is no closed-form solution. Regression analysis is a form of predictive modeling technique used to determine the relationship between one or more independent variables and a dependent variable.
 
 ### How it works
 
@@ -83,15 +83,15 @@ Using Bayes' theorem, we may determine how likely it is that A will occur if B h
 
 ### Random Forest
 
-A supervised learning algorithm is random forest. It assembles decision trees, which are frequently trained using the "bagging" method, into a "forest." The fundamental tenet of the bagging approach is that the output is improved by combining several learning models.
+Random forest is a supervised learning algorithm. It assembles decision trees, which are commonly trained using the "bagging" method, into a "forest." The bagging approach's key tenet is that the output is improved by combining different learning models.
 
-Classification and regression problems, which make up most modern machine learning systems, can be resolved using random forest. Let's examine random forest in categorization since it is usually regarded as the foundation of machine learning.
+Random forest can address classification and regression problems, which are common in modern machine learning systems. Let's look into random forest in categorization because it's commonly thought of as the cornerstone of machine learning.
 
-A decision tree or bagging classifier's hyperparameters are relatively comparable to those of a random forest. Thankfully, you can use a random forest's classifier-class rather than combining a decision tree with a bagging classifier. To handle regression jobs with random forest, use the algorithm's regressor.
+The hyperparameters of a decision tree or bagging classifier are similar to those of a random forest. Fortunately, rather than combining a decision tree with a bagging classifier, you may use the classifier-class of a random forest. Use the algorithm's regressor to handle regression jobs using random forest.
 
-The random forest increases the model's randomness as it grows the trees. Instead of focusing on the most important feature when dividing a node, it chooses the best feature from a random selection of features. There is a lot of diversity as a result, which results in a better model.
+As the trees grow, the random forest improves the model's randomness. When dividing a node, it selects the best feature from a random selection of features rather than focusing on the most significant feature. As a result, there is more diversity, which leads to a better model.
 
-As a result, the method for dividing a node in random forest only takes a random subset of the features into account. You can further randomize trees by using random thresholds for each feature rather than aiming for the highest feasible thresholds (like a normal decision tree does).
+As a result, the method for dividing a node in random forest only takes into account a random subset of the features. Trees can be further randomized by utilizing random thresholds for each characteristic rather than striving for the highest achievable thresholds (like a standard decision tree does).
 
 ## How we used these models in project
 
